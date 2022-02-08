@@ -2,7 +2,6 @@ import HttpClient from './utils/HttpClient';
 
 class ContactsService {
   constructor() {
-    console.log('dev');
     this.httpClient = new HttpClient('http://localhost:3001');
   }
 
